@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header::before {
+    content: "";
+    background: url("car2.png") no-repeat ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+nav{
+    background-color: #242429;
+    height: 100px;
+    color: white;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.f1-logo{
+    width: 217px;
+    height: 216px;
+    position: relative;
+    bottom: 57px;
+}
+
+.navLists{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 200;
+    margin-left: 100px;    
+}
+
+.navLists li{
+    margin: auto 40px;    
+    cursor: pointer;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.navLists .themes:hover, .drivers:hover, .interestingFacts:hover{
+    background-color: white;
+    color: red;
+}
+
+.f1Flag{
+    height: 96px;
+    width: 200px;
+    margin-left: 350px;
+}
+
+.dropdown-Themes{
+    font-size: 1.4rem;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-Themes li{
+    height: 100px;
+    width: 310px;
+    margin: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 10px;
+}
+
+.dropdown-Themes li:hover{
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-top-right-radius: 16px;
+}
+
+.dropdown-Themes img{
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+    
+}
+
+.themes{
+    cursor: pointer;
+}
+
+.dropdown-content-themes {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: auto 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.5s ease;
+}
+
+.themes:hover .dropdown-content-themes {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
