@@ -142,22 +142,22 @@ nav {
 .box{
     height: 18vmin;
     width: 18vmin;
-    border-radius: 1rem;
-    border: none;
+    border-radius: 0.5rem;
+    border: 6px dashed black;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3),inset 0 0 1rem rgba(152, 169, 28, 0.9);
     font-size: 8vmin;
     color: #b0413e;
-    background-color: #ffffc7;
+    background-color: #fff;
     cursor: grab;
 }
 
 #reset-btn{
     padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
+    font-size: 1.65rem;
+    background-color: red;
     color: #fff;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.9);
     margin-bottom: 40px;
@@ -165,21 +165,26 @@ nav {
 
 #new-btn{
     padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
+    font-size: 1.65rem;
+    background-color: red;
     color: #fff;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.9);
     margin-top: 40px;
 }
 
+#h1-main{
+    color: white;
+    font-size: 3.2rem;
+}
+
 #msg{
-    color: #ffffc7;
+    color: #fff;
     font-size: 10vmin;
     padding: 40px;
-    text-shadow: 0 0 1rem rgba(152, 169, 28, 0.9);
+    text-shadow: 0 0 0.3rem rgba(247, 3, 11, 0.9);
 }
 
 .message-container{
