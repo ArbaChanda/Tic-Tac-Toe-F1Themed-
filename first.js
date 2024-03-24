@@ -27,7 +27,7 @@ const resetGame = () => {
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
-        if(turn0) {
+        if (turn0) {
             box.innerText = "O";
             turn0 = false;
         } else {
@@ -39,7 +39,7 @@ boxes.forEach((box) => {
 
         let isWinner = checkWinner();
 
-        if( count === 9 && !isWinner) {
+        if (count === 9 && !isWinner) {
             gameDraw();
         }
     })
@@ -74,11 +74,11 @@ const showWinner = (winner) => {
 const checkWinner = () => {
     for (let pattern of winPatterns) {
 
-        let pos1val =boxes[pattern[0]].innerText;
-        let pos2val =boxes[pattern[1]].innerText;
-        let pos3val =boxes[pattern[2]].innerText;
+        let pos1val = boxes[pattern[0]].innerText;
+        let pos2val = boxes[pattern[1]].innerText;
+        let pos3val = boxes[pattern[2]].innerText;
 
-        if (pos1val != "" && pos2val != "" && pos3val != "" ) {
+        if (pos1val != "" && pos2val != "" && pos3val != "") {
             if (pos1val === pos2val && pos2val === pos3val) {
                 showWinner(pos1val);
             }
