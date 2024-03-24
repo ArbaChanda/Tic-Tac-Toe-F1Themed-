@@ -122,6 +122,265 @@ nav {
     visibility: visible;
 }
 
+.dropdown-drivers {
+    font-size: 1.4rem;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #242429;
+    color: white;
+}
+
+.dropdown-drivers li {
+    height: 40px;
+    width: 310px;
+    margin: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown-drivers li:hover {
+    border-bottom-right-radius: 16px;
+}
+
+.drivers {
+    cursor: pointer;
+}
+
+.dropdown-content-drivers {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: auto 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.5s ease;
+}
+
+.drivers:hover .dropdown-content-drivers {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-drivers li div{
+    height: 25px;
+    width: 8px;
+    position: relative;
+    right: 15px;
+}
+
+#driver-1 div{
+    background-color: #64C4FF;
+}
+
+#driver-1:hover {
+    border-bottom: 4px solid #64C4FF;
+    border-right: 4px solid #64C4FF;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-2 div{
+    background-color: #229971;
+}
+
+#driver-2:hover {
+    border-bottom: 4px solid #229971;
+    border-right: 4px solid #229971;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-3 div{
+    background-color: #52E252;
+}
+
+#driver-3:hover {
+    border-bottom: 4px solid #52E252;
+    border-right: 4px solid #52E252;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-4 div{
+    background-color: #0093CC;
+}
+
+#driver-4:hover {
+    border-bottom: 4px solid #0093CC;
+    border-right: 4px solid #0093CC;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-5 div{
+    background-color: #27F4D2;
+}
+
+#driver-5:hover {
+    border-bottom: 4px solid #27F4D2;
+    border-right: 4px solid #27F4D2;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-6 div{
+    background-color: #B6BABD;
+}
+
+#driver-6:hover {
+    border-bottom: 4px solid #B6BABD;
+    border-right: 4px solid #B6BABD;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-7 div{
+    background-color: #E80020;
+}
+
+#driver-7:hover {
+    border-bottom: 4px solid #E80020;
+    border-right: 4px solid #E80020;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-8 div{
+    background-color: #B6BABD;
+}
+
+#driver-8:hover {
+    border-bottom: 4px solid #B6BABD;
+    border-right: 4px solid #B6BABD;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-9 div{
+    background-color: #FF8000;
+}
+
+#driver-9:hover {
+    border-bottom: 4px solid #FF8000;
+    border-right: 4px solid #FF8000;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-10 div{
+    background-color: #0093CC;
+}
+
+#driver-10:hover {
+    border-bottom: 4px solid #0093CC;
+    border-right: 4px solid #0093CC;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-11 div{
+    background-color: #3671C6;
+}
+
+#driver-11:hover {
+    border-bottom: 4px solid #3671C6;
+    border-right: 4px solid #3671C6;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-12 div{
+    background-color: #FF8000;
+}
+
+#driver-12:hover {
+    border-bottom: 4px solid #FF8000;
+    border-right: 4px solid #FF8000;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-13 div{
+    background-color: #64C4FF;
+}
+
+#driver-13:hover {
+    border-bottom: 4px solid #64C4FF;
+    border-right: 4px solid #64C4FF;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-14 div{
+    background-color: #27F4D2;
+}
+
+#driver-14:hover {
+    border-bottom: 4px solid #27F4D2;
+    border-right: 4px solid #27F4D2;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-15 div{
+    background-color: #E80020;
+}
+
+#driver-15:hover {
+    border-bottom: 4px solid #E80020;
+    border-right: 4px solid #E80020;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-16 div{
+    background-color: #64C4FF;
+}
+
+#driver-16:hover {
+    border-bottom: 4px solid #64C4FF;
+    border-right: 4px solid #64C4FF;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-17 div{
+    background-color: #229971;
+}
+
+#driver-17:hover {
+    border-bottom: 4px solid #229971;
+    border-right: 4px solid #229971;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-18 div{
+    background-color: #64C4FF;
+}
+
+#driver-18:hover {
+    border-bottom: 4px solid #64C4FF;
+    border-right: 4px solid #64C4FF;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-19 div{
+    background-color: #3671C6;
+}
+
+#driver-19:hover {
+    border-bottom: 4px solid #3671C6;
+    border-right: 4px solid #3671C6;
+    border-bottom-right-radius: 16px;
+}
+
+#driver-20 div{
+    background-color: #52E252;
+}
+
+#driver-20:hover {
+    border-bottom: 4px solid #52E252;
+    border-right: 4px solid #52E252;
+    border-bottom-right-radius: 16px;
+}
+
+/* Game content */
 .container{
     height: 70vh;
     display: flex;
